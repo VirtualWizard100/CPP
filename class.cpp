@@ -65,11 +65,11 @@ public:
 
 };
 int main() {
-	Person Asher = Person( "Asher", "Harris", 22, 150.55, 5.9);
-	Asher.info();
+	Person Virtual_Wizard = Person( "Virtual", "Wizard", 22, 150.55, 5.9);
+	Virtual_Wizard.info();
 	Person John = Person( "John", "Moot", 31, 150.75, 6.1);
 	John.info();
-	Asher.getName();
-	Asher.setFirst("Ash", 1);
-	std::cout << Asher.getName() << std::endl;
+	Virtual_Wizard.getName();
+	Virtual_Wizard.setFirst("Water", 1);
+	std::cout << Virtual_Wizard.getName() << std::endl;
 };
